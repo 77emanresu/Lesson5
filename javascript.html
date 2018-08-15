@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylejs.css"/>
+    <meta charset="UTF-8">
+    <title>jsapp</title>
+    
+    <script type="text/javascript">
+        function goTo(){
+            window.location='https://learn.javascript.ru/';
+        }
+        function merge(){
+            var b2 =document.getElementsByClassName('style2');
+            document.body.style.cssText="background-color:#a6c67c;\
+            margin-top: -70px;";       
+        }
+        function clear(){
+            document.body.innerHTML= " ";
+        }
+        function newStyle(){
+            clear();
+            document.location.href= "./flex.html";
+        }
+        
+    </script>
+    
+</head>
+<body>
+   <section>
+     <div class="text">
+          <p>Выбор за тобой:</p>
+          <h3>Выберешь красную кнопку - попадешь в новую жизнь.</h3>
+          <h3>Выберешь синюю - останешься жить как прежде, но в другом цвете.</h3>
+          <h4>А белая для прикола прост.</h4>
+      </div>
+       <button onclick="goTo()" class="link">link</button>
+       <button class="style2" onclick="merge()">style</button>
+       <button onclick="newStyle()" class="exchange">flex</button>
+   </section>
+    
+</body>
+</html>

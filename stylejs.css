@@ -1,0 +1,28 @@
+body{background-color:burlywood;}
+section{position:absolute;
+    width:100%;
+    margin-top:100px;
+    display:flex;
+    flex-direction: column;    
+}
+.text{text-align: center;
+    margin:50px;}
+p{font-size:20px;
+    font-family: Arial;}
+button{position: relative;
+    width:5%;
+    height:30px;
+    margin:20px auto;
+    border-radius:15px;    
+}
+.link{background-color: orangered;
+    
+    }
+
+.style2{background-color: dodgerblue;
+    
+    }
+
+.exchange{background-color:azure;
+    
+    }
